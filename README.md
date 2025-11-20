@@ -72,17 +72,6 @@
 
 ---
 
-## 🧭 **Sugestão de Estrutura Para o README**
-
-* ✨ Introdução
-* 🚀 Roadmap completo
-* 📚 Materiais recomendados
-* 🧪 Projetos para prática
-* 🛠 Tecnologias estudadas
-* 🧩 Próximos passos
-
----
-
 > 🔥 *Roadmap completo para quem quer dominar C#, ASP.NET MVC e Programação Orientada a Objetos.*
 
 ---
