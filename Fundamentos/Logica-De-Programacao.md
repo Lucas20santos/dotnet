@@ -1,4 +1,6 @@
-# 🧠 Lógica de Programação — Explicação Completa
+# Fundamentos de programação em dotnet
+
+## 🧠 Lógica de Programação — Explicação Completa
 
 ---
 
