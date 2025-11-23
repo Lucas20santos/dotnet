@@ -1,9 +1,5 @@
 # Fundamentos de programação em dotnet
 
-## Claro, Lucas! Vamos estudar **variáveis e tipos de dados em C#**, com **explicações simples**, **exemplos bem didáticos** e depois **exercícios para você praticar** (lembrando: como você prefere, vou te instruir e não escrever código pronto para as respostas dos exercícios).
-
----
-
 ## ✅ **1. O que são variáveis?**
 
 Variáveis são **espaços na memória** onde podemos armazenar valores.
