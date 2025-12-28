@@ -72,3 +72,29 @@ Console.WriteLine("Situação climática: " + mensagemNaoEstaChovendo);
 int numero = 20;
 string ehPar = numero % 2 == 0 ? $"O Número {numero} é Par!": $"O Número {numero} é Impar!";
 Console.WriteLine(ehPar);
+
+// Exercício 08
+
+string? nome = null;
+
+string resultado = nome ?? "Visitante";
+
+Console.WriteLine(resultado);
+
+// Exercício 10
+
+double? nota1 = 8;
+double? nota2 = 7;
+
+double media = ((nota1 ?? 0) + (nota2 ?? 0)) / 2;
+string situacao = media >= 7 ? "Aprovado" : "Reprovado";
+
+Console.WriteLine($"Media: {media} Situação: {situacao}");
+
+// Alternativa
+
+double? soma = nota1.HasValue && nota2.HasValue ? nota1 + nota2 : 0;
+situacao = soma == 0 ? "Verificar as notas antes" : situacao;
+Console.WriteLine($"Media: {media} Situação: {situacao}");
+
+// Exercicio 09

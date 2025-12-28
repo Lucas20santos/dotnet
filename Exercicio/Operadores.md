@@ -220,9 +220,105 @@ string nome = null;
 
 📌 **Objetivo**: `??`
 
+#### ❓ O que é Coalescência Nula em C#?
+
+**Coalescência Nula** é um recurso usado para **definir um valor padrão quando uma variável é** null.
+
+##### 👉 Em C#, isso é feito com o operador ??.
+
+#### 🔹 Forma simples
+
+```csharp
+string nome = null;
+string resultado = nome ?? "Usuário";
+```
+
+📌 Se nome for null, resultado recebe "Usuário"
+
+📌 Se nome não for null, resultado recebe o valor de nome
+
+#### 🧠 Sem coalescência nula (forma tradicional)
+
+```csharp
+string resultado;
+
+if (nome == null)
+{
+    resultado = "Usuário";
+}
+else
+{
+    resultado = nome;
+}
+```
+
+📌 O ?? faz exatamente isso, com menos código e mais clareza.
+
+#### 🔹 Exemplo com números
+
+```csharp
+int? idade = null;
+int idadeFinal = idade ?? 18;
+```
+
+📌 Muito usado com tipos anuláveis (int?, double?).
+
+#### 🔹 Em ASP.NET / APIs (caso real)
+
+```csharp
+string nome = request.Nome ?? "Anônimo";
+```
+
+Evita:
+
+- NullReferenceException
+- muitos if
+
+#### 🔹 Coalescência Nula + Acesso Seguro
+
+```csharp
+string nome = cliente?.Nome ?? "Cliente não informado";
+```
+
+📌 Ordem:
+
+1. cliente?.Nome → pode retornar null
+1. ?? define valor padrão
+
+#### ❌ Erro comum
+
+```csharp
+string nome = cliente.Nome ?? "Padrão";
+```
+
+❌ Pode lançar NullReferenceException se cliente for null.
+
+#### 🔹 Coalescência encadeada
+
+```csharp
+string nome = apelido ?? nomeCompleto ?? "Sem nome";
+```
+
+📌 O C# usa o primeiro valor não nulo.
+
+#### 🎯 Pergunta clássica de entrevista
+
+##### ❓ Qual a diferença entre ?? e operador ternário?
+
+###### 📌 Resposta curta:
+
+- ?? → só verifica null
+- ?: → avalia qualquer condição
+
+#### 💬 Como explicar em entrevista
+
+> "O operador de coalescência nula (??) permite definir um valor padrão quando uma variável é null, tornando o código mais limpo e seguro."
+
 ---
 
 ### 9️⃣ Acesso Seguro
+
+> Tente fazer esse exercício depois que aprender sobre POO.
 
 Crie uma classe `Usuario` com a propriedade `Email`.
 
@@ -244,6 +340,22 @@ Crie um programa que:
   * `"Reprovado"` caso contrário
 
 📌 **Objetivo**: combinação de operadores
+
+```csharp
+double? nota1 = 8;
+double? nota2 = 7;
+
+double media = ((nota1 ?? 0) + (nota2 ?? 0)) / 2;
+string situacao = media >= 7 ? "Aprovado" : "Reprovado";
+
+Console.WriteLine($"Media: {media} Situação: {situacao}");
+
+// Alternativa
+
+double? soma = nota1.HasValue && nota2.HasValue ? nota1 + nota2 : 0;
+situacao = soma == 0 ? "Verificar as notas antes" : situacao;
+Console.WriteLine($"Media: {media} Situação: {situacao}");
+```
 
 ---
 
