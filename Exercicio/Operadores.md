@@ -17,8 +17,34 @@ Crie um programa que receba dois números inteiros e exiba:
 ### Resolução
 
 ```csharp
-int primeiroNumero
+int primeiroNumero = 7;
+int segundoNumero = 2;
+
+int soma = primeiroNumero + segundoNumero;
+int subtracao = primeiroNumero - segundoNumero;
+int multiplicacao = primeiroNumero * segundoNumero;
+int parteInteiraDaDivisao = primeiroNumero / segundoNumero;
+int restoDaDivisao = primeiroNumero % segundoNumero;
+float divisaoFracionada = (float) primeiroNumero /  segundoNumero;
+
+Console.WriteLine(soma);
+Console.WriteLine(subtracao);
+Console.WriteLine(multiplicacao);
+Console.WriteLine(parteInteiraDaDivisao);
+Console.WriteLine(restoDaDivisao);
+Console.WriteLine(divisaoFracionada);
 ```
+
+### Detalhes
+
+O exemplo abaixo gera um erro, já que o float.Parse(string) espera uma string e não uma expressão.
+
+#### Primeira Opção
+
+```csharp
+float divisaoFracionada = float.Parse(primeiroNumero /  segundoNumero);
+```
+
 
 ---
 
@@ -35,6 +61,30 @@ int b = 2;
 * Como fazer para obter `3.5`?
 
 📌 **Objetivo**: entender conversão de tipos
+
+#### Segunda Opção
+
+```csharp
+float divisaoFracionada = (float) primeiroNumero / segundoNumero;
+```
+
+#### Terceira Opção
+
+```csharp
+float divisaoFracionada = (float) primeiroNumero / segundoNumero;
+```
+
+#### Quarta Opção
+
+```csharp
+float divisaoFracionada = Convert.ToSingle(primeiroNumero) / segundoNumero;
+```
+
+❓ Por que (float)primeiroNumero / segundoNumero funciona ?
+
+📌 Resposta técnica:
+
+> Em uma operação, o C# promove o tipo mais simples para o mais complexo. Ao converter um operando para float, toda a expressão passa a ser float.
 
 ---
 
