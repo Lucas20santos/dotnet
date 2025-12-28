@@ -1,0 +1,15 @@
+/workspaces/dotnet/resolucaoExerciciosFundamentos/bin/Debug/net10.0/resolucaoExerciciosFundamentos
+/workspaces/dotnet/resolucaoExerciciosFundamentos/bin/Debug/net10.0/resolucaoExerciciosFundamentos.deps.json
+/workspaces/dotnet/resolucaoExerciciosFundamentos/bin/Debug/net10.0/resolucaoExerciciosFundamentos.runtimeconfig.json
+/workspaces/dotnet/resolucaoExerciciosFundamentos/bin/Debug/net10.0/resolucaoExerciciosFundamentos.dll
+/workspaces/dotnet/resolucaoExerciciosFundamentos/bin/Debug/net10.0/resolucaoExerciciosFundamentos.pdb
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/resolucaoExerciciosFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/resolucaoExerciciosFundamentos.AssemblyInfoInputs.cache
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/resolucaoExerciciosFundamentos.AssemblyInfo.cs
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/resolucaoExerciciosFundamentos.csproj.CoreCompileInputs.cache
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/resolucaoExerciciosFundamentos.sourcelink.json
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/resolucaoExerciciosFundamentos.dll
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/refint/resolucaoExerciciosFundamentos.dll
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/resolucaoExerciciosFundamentos.pdb
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/resolucaoExerciciosFundamentos.genruntimeconfig.cache
+/workspaces/dotnet/resolucaoExerciciosFundamentos/obj/Debug/net10.0/ref/resolucaoExerciciosFundamentos.dll

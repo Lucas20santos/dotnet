@@ -4,11 +4,11 @@
 
 ## 📘 **Semana 1 – Base da Programação**
 
-1. Lógica de programação
-2. Variáveis e tipos
-3. Operadores
-4. Entrada e saída
-5. Condicionais
+1. [Lógica de programação](../Fundamentos/Logica-De-Programacao.md)
+1. [Variáveis e tipos](../Fundamentos/Variaveis_E_Tipos.md)
+1. Operadores
+1. Entrada e saída
+1. Condicionais
 
 ## 📘 **Semana 2 – Estruturas essenciais**
 
