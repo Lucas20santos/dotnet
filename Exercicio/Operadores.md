@@ -71,7 +71,7 @@ float divisaoFracionada = (float) primeiroNumero / segundoNumero;
 #### Terceira Opção
 
 ```csharp
-float divisaoFracionada = (float) primeiroNumero / segundoNumero;
+float divisaoFracionada = (float) primeiroNumero / (float) segundoNumero;
 ```
 
 #### Quarta Opção
@@ -104,6 +104,28 @@ Explique o valor exibido em cada linha.
 
 ---
 
+> No pós-incremento, o valor atual da variável é usado primeiro e depois incrementado. No pré-incremento, a variável é incrementada antes de ser utilizada na expressão.
+
+### Regra de ouro
+
+📌 Se a variável está sozinha na linha:
+
+```csharp
+x++;
+++x;
+```
+
+➡️ Não faz diferença
+
+📌 Se está dentro de uma expressão:
+
+```csharp
+y = x++ + 2;
+y = ++x + 2;
+```
+
+➡️ FAZ diferença
+
 ## 🔹 Nível 2 – Intermediário (Lógica)
 
 ### 4️⃣ Comparação de Idade
@@ -114,6 +136,14 @@ Crie uma variável `idade` e:
 * Caso contrário, exiba `false`
 
 📌 **Objetivo**: operadores relacionais
+
+```csharp
+int idade = 20;
+
+bool ehMaiorDeIdade = idade >= 18;
+
+Console.WriteLine(ehMaiorDeIdade);
+```
 
 ---
 
@@ -132,6 +162,15 @@ Escreva uma condição que:
 
 📌 **Objetivo**: `&&`
 
+```csharp
+bool temLogin = true;
+bool temSenha = false;
+
+bool temAcesso = temLogin && temSenha;
+
+Console.WriteLine("Usuario tem acesso: " + temAcesso);
+```
+
 ---
 
 ### 6️⃣ Negação Lógica
@@ -145,6 +184,14 @@ bool estaChovendo = true;
 Utilize o operador lógico para verificar se **não está chovendo**.
 
 📌 **Objetivo**: `!`
+
+``` csharp
+bool estaChovendo = true;
+
+string mensagemNaoEstaChovendo = !estaChovendo ? "Nao Está chovendo!" : "Ainda Está Chovendo!";
+
+Console.WriteLine("Situação climática: " + mensagemNaoEstaChovendo);
+```
 
 ---
 
