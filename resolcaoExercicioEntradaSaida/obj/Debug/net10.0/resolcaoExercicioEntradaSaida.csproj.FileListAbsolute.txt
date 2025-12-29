@@ -1,0 +1,15 @@
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/bin/Debug/net10.0/resolcaoExercicioEntradaSaida
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/bin/Debug/net10.0/resolcaoExercicioEntradaSaida.deps.json
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/bin/Debug/net10.0/resolcaoExercicioEntradaSaida.runtimeconfig.json
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/bin/Debug/net10.0/resolcaoExercicioEntradaSaida.dll
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/bin/Debug/net10.0/resolcaoExercicioEntradaSaida.pdb
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/resolcaoExercicioEntradaSaida.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/resolcaoExercicioEntradaSaida.AssemblyInfoInputs.cache
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/resolcaoExercicioEntradaSaida.AssemblyInfo.cs
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/resolcaoExercicioEntradaSaida.csproj.CoreCompileInputs.cache
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/resolcaoExercicioEntradaSaida.sourcelink.json
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/resolcaoExercicioEntradaSaida.dll
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/refint/resolcaoExercicioEntradaSaida.dll
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/resolcaoExercicioEntradaSaida.pdb
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/resolcaoExercicioEntradaSaida.genruntimeconfig.cache
+/workspaces/dotnet/resolcaoExercicioEntradaSaida/obj/Debug/net10.0/ref/resolcaoExercicioEntradaSaida.dll
