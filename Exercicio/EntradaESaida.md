@@ -19,7 +19,6 @@
 * Solicite o nome
 * O nome **não pode** estar vazio
 * Deve ter pelo menos **3 caracteres**
-* Se inválido, peça novamente
 
 🔎 **Validações esperadas**:
 

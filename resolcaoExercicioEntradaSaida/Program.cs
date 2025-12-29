@@ -44,10 +44,51 @@
 
 // ENTRADA COM VALORES OPCIONAIS (NULLABLE)
 
-Console.Write("Digite a nota (ou pressione Enter): ");
+// Console.Write("Digite a nota (ou pressione Enter): ");
+// string entrada = Console.ReadLine();
+
+// double? nota = string.IsNullOrWhiteSpace(entrada) ? null : double.Parse(entrada);
+
+// Console.WriteLine($"Nota: {nota ?? 0}");
+
+// LENDO UM ÚNICO CARACTERE
+
+// Console.Write("Dejesa continuar? (s/n): ");
+// char opcao = Console.ReadKey().KeyChar;
+
+// Console.WriteLine($"\nOpção escolhida: {opcao}");
+
+// LIMPANDO O CONSOLE E PAUSANDO O PROGRAMA
+
+// Console.Clear();
+
+// Console.WriteLine("Pressione qualquer tecla para sair...");
+// Console.ReadKey();
+
+// ENTRADA E SAÍDA COM ARQUIVOS (INTRODUCAO)
+
+// File.WriteAllText("dados.txt", "Olá arquivo");
+
+// string conteudo = File.ReadAllText("dados.txt");
+// Console.WriteLine(conteudo);
+
+// EXERCICIO 01 - NOME VÁLIDO
+
+// Console.Write("Digite seu nome: ");
+// string nome = Console.ReadLine();
+
+// Console.WriteLine(string.IsNullOrWhiteSpace(nome) || nome.Length < 3 ? "Nome Invalido ou curto demais": nome);
+
+
+// EXERCICIO 02 - IDADE COM FAIXA VÁLIDA
+
+Console.Write("Digite a sua idade: ");
 string entrada = Console.ReadLine();
 
-double? nota = string.IsNullOrWhiteSpace(entrada) ? null : double.Parse(entrada);
+entrada = string.IsNullOrWhiteSpace(entrada) ? null : entrada;
 
-Console.WriteLine($"Nota: {nota ?? 0}");
+bool sucesso = int.TryParse(entrada ?? "0", out int idade);
+bool idadeDentroDeRange = (idade > 0) && (idade < 120);
+
+Console.WriteLine(sucesso && idadeDentroDeRange ? $"Idade: {idade}" : "Valor Invalido");
 
