@@ -452,6 +452,7 @@ bool resultado = b != 0 && a / b > 2;
 📌 **Pergunta**: Isso gera erro?
 
 ✅ **Resposta**:
+
 Não, porque `&&` faz curto-circuito e a segunda expressão não é avaliada.
 
 ---

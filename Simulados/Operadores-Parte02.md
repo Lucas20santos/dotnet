@@ -11,7 +11,7 @@
 * Não usar LINQ
 * Não usar bibliotecas externas
 * Pode usar `Console.WriteLine`
-* Código deve ser claro e legível
+* Código deve ser claro e legíOperador Descrição     vel
 
 ---
 

@@ -6,7 +6,7 @@
 
 1. [Lógica de programação](../Fundamentos/Logica-De-Programacao.md)
 1. [Variáveis e tipos](../Fundamentos/Variaveis_E_Tipos.md)
-1. Operadores
+1. [Operadores](../Fundamentos/Operadores.md)
 1. Entrada e saída
 1. Condicionais
 
