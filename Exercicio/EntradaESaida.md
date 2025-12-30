@@ -25,6 +25,12 @@
 * Entrada vazia
 * Nome muito curto
 
+```csharp
+Console.Write("Digite seu nome: ");
+string nome = Console.ReadLine();
+
+Console.WriteLine(string.IsNullOrWhiteSpace(nome) || nome.Length < 3 ? "Nome Invalido ou curto demais": nome);
+```
 ---
 
 ## 🟢 Exercício 2 – Idade com faixa válida
@@ -45,6 +51,32 @@
 
 ---
 
+```csharp
+Console.Write("Digite a sua idade: ");
+string entrada = Console.ReadLine();
+
+if (string.IsNullOrWhiteSpace(entrada))
+{
+    Console.WriteLine("O valor informado para idade não pode ser nullo ou vazio.");
+    return;
+}
+
+if (!int.TryParse(entrada, out int idade))
+{
+    Console.WriteLine("Valor informado não é um numero interio.");
+    return;
+}
+
+if (idade < 0 || idade > 120)
+{
+    Console.WriteLine($"A idade {idade} fora do range [0:120].");
+}
+else
+{
+    Console.WriteLine($"A sua idade é {idade}.");
+}
+```
+
 ## 🟢 Exercício 3 – Média de notas segura
 
 📌 **Objetivo**: Calcular a média de duas notas.
@@ -62,6 +94,53 @@
 * Número fora da faixa
 
 ---
+
+```csharp
+Console.Write("Digite a primeira nota: ");
+string? entrada1 = Console.ReadLine();
+
+if (string.IsNullOrWhiteSpace(entrada1))
+{
+    Console.WriteLine("Valor não pode ser vazio ou nullo.");
+    return;
+}
+
+if (!double.TryParse(entrada1, out double nota1))
+{
+    Console.WriteLine("A nota informada não é um valor valido.");
+    return;
+}
+
+if (0 > nota1 || nota1 > 10)
+{
+    Console.WriteLine("Nota Digitada fora do range de [0 à 10].");
+    return;
+}
+
+Console.Write("Digite a segunda nota: ");
+string? entrada2 = Console.ReadLine();
+
+if (string.IsNullOrWhiteSpace(entrada2))
+{
+    Console.WriteLine("Valor não pode ser vazio ou nullo.");
+    return;
+}
+
+if (!double.TryParse(entrada2, out double nota2))
+{
+    Console.WriteLine("A nota informada não é um valor valido.");
+    return;
+}
+
+if (0 > nota2 || nota2 > 10)
+{
+    Console.WriteLine("Nota Digitada fora do range de [0 à 10].");
+    return;
+}
+
+double media = (nota1 + nota2) / 2;
+Console.WriteLine($"A média é {media}");
+```
 
 ## 🟢 Exercício 4 – Menu de opções
 
@@ -86,6 +165,34 @@
 * Opção fora do menu
 
 ---
+
+```csharp
+Console.Write("MENU:\n1- Cadastrar\n2 - Listar\n0 - Sair\n");
+string entrada = Console.ReadLine();
+
+if (string.IsNullOrWhiteSpace(entrada))
+{
+    Console.WriteLine("O valor informado não pode ser nullo ou vazio.");
+    return;
+}
+
+if (!int.TryParse(entrada, out int opcao))
+{
+    Console.WriteLine("Valor informado não é um numero interio.");
+    return;
+}
+
+if (opcao < 0 || opcao > 2)
+{
+    Console.WriteLine($"A opcao precisa está entre 0 - 2");
+}
+else
+{
+    if (opcao == 1) Console.WriteLine("Cadastro");
+    else if (opcao == 2) Console.WriteLine("Listando");
+    else Console.WriteLine("Saindo");
+}
+```
 
 ## 🟢 Exercício 5 – Confirmação (Sim ou Não)
 
