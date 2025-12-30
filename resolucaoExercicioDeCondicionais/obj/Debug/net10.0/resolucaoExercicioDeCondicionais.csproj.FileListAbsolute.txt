@@ -1,0 +1,15 @@
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/bin/Debug/net10.0/resolucaoExercicioDeCondicionais
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/bin/Debug/net10.0/resolucaoExercicioDeCondicionais.deps.json
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/bin/Debug/net10.0/resolucaoExercicioDeCondicionais.runtimeconfig.json
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/bin/Debug/net10.0/resolucaoExercicioDeCondicionais.dll
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/bin/Debug/net10.0/resolucaoExercicioDeCondicionais.pdb
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/resolucaoExercicioDeCondicionais.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/resolucaoExercicioDeCondicionais.AssemblyInfoInputs.cache
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/resolucaoExercicioDeCondicionais.AssemblyInfo.cs
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/resolucaoExercicioDeCondicionais.csproj.CoreCompileInputs.cache
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/resolucaoExercicioDeCondicionais.sourcelink.json
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/resolucaoExercicioDeCondicionais.dll
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/refint/resolucaoExercicioDeCondicionais.dll
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/resolucaoExercicioDeCondicionais.pdb
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/resolucaoExercicioDeCondicionais.genruntimeconfig.cache
+/workspaces/dotnet/resolucaoExercicioDeCondicionais/obj/Debug/net10.0/ref/resolucaoExercicioDeCondicionais.dll
