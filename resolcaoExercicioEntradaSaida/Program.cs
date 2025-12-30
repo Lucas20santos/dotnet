@@ -182,5 +182,3 @@
 // }
 
 // EXERCICIO 05 - CONFIRMAÇÃO (SIM OU NÃO)
-
-
