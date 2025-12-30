@@ -8,7 +8,7 @@
 1. [Variáveis e tipos](../Fundamentos/Variaveis_E_Tipos.md)
 1. [Operadores](../Fundamentos/Operadores.md)
 1. [Entrada e saída](../Fundamentos/EntradaESaida.md)
-1. Condicionais
+1. [Condicionais](../Fundamentos/Condicionais.md)
 
 ## 📘 **Semana 2 – Estruturas essenciais**
 
