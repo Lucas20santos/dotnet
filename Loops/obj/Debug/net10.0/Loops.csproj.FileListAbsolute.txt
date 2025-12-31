@@ -1,0 +1,15 @@
+/workspaces/dotnet/Loops/bin/Debug/net10.0/Loops
+/workspaces/dotnet/Loops/bin/Debug/net10.0/Loops.deps.json
+/workspaces/dotnet/Loops/bin/Debug/net10.0/Loops.runtimeconfig.json
+/workspaces/dotnet/Loops/bin/Debug/net10.0/Loops.dll
+/workspaces/dotnet/Loops/bin/Debug/net10.0/Loops.pdb
+/workspaces/dotnet/Loops/obj/Debug/net10.0/Loops.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/dotnet/Loops/obj/Debug/net10.0/Loops.AssemblyInfoInputs.cache
+/workspaces/dotnet/Loops/obj/Debug/net10.0/Loops.AssemblyInfo.cs
+/workspaces/dotnet/Loops/obj/Debug/net10.0/Loops.csproj.CoreCompileInputs.cache
+/workspaces/dotnet/Loops/obj/Debug/net10.0/Loops.sourcelink.json
+/workspaces/dotnet/Loops/obj/Debug/net10.0/Loops.dll
+/workspaces/dotnet/Loops/obj/Debug/net10.0/refint/Loops.dll
+/workspaces/dotnet/Loops/obj/Debug/net10.0/Loops.pdb
+/workspaces/dotnet/Loops/obj/Debug/net10.0/Loops.genruntimeconfig.cache
+/workspaces/dotnet/Loops/obj/Debug/net10.0/ref/Loops.dll
