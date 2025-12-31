@@ -67,6 +67,8 @@
 
 // EXERCICIO 01
 
+// PARTE 01
+
 // Console.Write("Digite um número inteiro: ");
 // string? entrada = Console.ReadLine();
 
@@ -82,9 +84,65 @@
 //     return;
 // }
 
-// string ehPar = numero % 2 == 0 ? "Par" : "Impar";
+// string ehParOuImpar = numero % 2 == 0 ? "Par" : "Impar";
 
-// Console.WriteLine($"O número: {numero} é {ehPar}.");
+// Console.WriteLine($"O número: {numero} é {ehParOuImpar}.");
 
+// PARTE 02
 
+// double LerNota(string mensagem)
+// {
+//     Console.Write(mensagem);
+//     string? entrada = Console.ReadLine();
 
+//     if (!double.TryParse(entrada, out double nota))
+//     {
+//         Console.WriteLine("Nota inválida.");
+//         return -1;
+//     }
+//     return nota;
+// }
+
+// var n1 = LerNota("Digite a primeira nota: ");
+// var n2 = LerNota("Digite a segunda nota: ");
+// var n3 = LerNota("Digite a terceira nota: ");
+
+// if (n1 < 0 || n2 < 0 || n3 < 0)
+// {
+//     Console.WriteLine("Erro na leitura das notas.");
+//     return;
+// }
+
+// double media = (n1 + n2 + n3) / 3;
+// string situacao = media >= 7 ? "Aprovado" : "Reprovado";
+
+// Console.WriteLine($"Média: {media:F2} - Situação: {situacao}");
+
+// PARTE 03:
+
+Console.Write("Diget um númeero de 1 a 12: ");
+string? entrada = Console.ReadLine();
+
+if (!int.TryParse(entrada, out int mes))
+{
+    Console.WriteLine("Valor inválido.");
+}
+
+string nomeMes = mes switch
+{
+    1 =>    "Janeiro",
+    2 =>    "Fevereiro",
+    3 =>    "Março",
+    4 =>    "Abril",
+    5 =>    "Maio",
+    6 =>    "Junho",
+    7 =>    "Julho",
+    8 =>    "Agosto",
+    9 =>    "Setembro",
+    10 =>   "Outubro",
+    11 =>   "Nobembro",
+    12 =>   "Dezembro",
+    13 =>   "Mês inválido"
+};
+
+Console.WriteLine(nomeMes);
