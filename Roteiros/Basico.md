@@ -12,7 +12,7 @@
 
 ## 📘 **Semana 2 – Estruturas essenciais**
 
-1. Loops (for, while)
+1. [Loops (for, while)](../Fundamentos/Loops.md)
 1. Arrays e coleções
 1. Funções
 1. Recursão
