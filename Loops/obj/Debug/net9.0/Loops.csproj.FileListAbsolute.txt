@@ -1,0 +1,15 @@
+/home/lucas/Documentos/Repositorio/dotnet/Loops/bin/Debug/net9.0/Loops
+/home/lucas/Documentos/Repositorio/dotnet/Loops/bin/Debug/net9.0/Loops.deps.json
+/home/lucas/Documentos/Repositorio/dotnet/Loops/bin/Debug/net9.0/Loops.runtimeconfig.json
+/home/lucas/Documentos/Repositorio/dotnet/Loops/bin/Debug/net9.0/Loops.dll
+/home/lucas/Documentos/Repositorio/dotnet/Loops/bin/Debug/net9.0/Loops.pdb
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/Loops.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/Loops.AssemblyInfoInputs.cache
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/Loops.AssemblyInfo.cs
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/Loops.csproj.CoreCompileInputs.cache
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/Loops.sourcelink.json
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/Loops.dll
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/refint/Loops.dll
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/Loops.pdb
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/Loops.genruntimeconfig.cache
+/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/Debug/net9.0/ref/Loops.dll
