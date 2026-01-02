@@ -62,7 +62,7 @@ for (int i = 0; i < 5; i++)
 
 ## 3. Loop `while`
 
-### Quando usar?
+### Quando usar\?
 
 * Quando **não sabemos** quantas repetições serão necessárias
 * Depende de uma condição
@@ -98,7 +98,7 @@ while (contador <= 5)
 
 * O bloco executa **pelo menos uma vez**, mesmo se a condição for falsa
 
-### Estrutura
+### \Estrutura
 
 ```csharp
 do
@@ -108,7 +108,7 @@ do
 while (condição);
 ```
 
-### Exemplo
+### \Exemplo
 
 ```csharp
 int opcao;
