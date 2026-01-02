@@ -31,8 +31,6 @@ while(true)
         Console.WriteLine("Você digitou o número zero. Saindo da Aplicação...");
         break;
     }
-    else
-    {
-        Console.WriteLine($"Número digitado: {numero}");
-    }
+
+    Console.WriteLine($"Número digitado: {numero}");
 }
