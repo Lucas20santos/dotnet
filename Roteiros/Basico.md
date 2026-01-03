@@ -9,14 +9,17 @@
 1. [Operadores](../Fundamentos/Operadores.md)
 1. [Entrada e saída](../Fundamentos/EntradaESaida.md)
 1. [Condicionais](../Fundamentos/Condicionais.md)
+1. [Loops (for, while)](../Fundamentos/Loops.md)
+1. [Mini-Projeto](../Mini-Projetos/Projeto01.md)
+1. [Solucao do Mini-Projeto](../sistemaDeControleDeNotas)
 
 ## 📘 **Semana 2 – Estruturas essenciais**
 
-1. [Loops (for, while)](../Fundamentos/Loops.md)
-1. Arrays e coleções
-1. Funções
-1. Recursão
-1. Depuração
+1. [Funções](../Fundamentos/Funcoes.md)
+2. Arrays
+3. Coleções
+4. Recursão
+5. Depuração
 
 ## 📘 **Semana 3 – Mão na massa**
 
