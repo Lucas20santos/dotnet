@@ -12,7 +12,7 @@ Criar um programa de console que permita ao usuário **cadastrar notas**, **vali
 
 O programa deve exibir um menu que se repete até o usuário escolher sair:
 
-```
+```bash
 1 - Inserir nota
 2 - Calcular média
 3 - Mostrar situação

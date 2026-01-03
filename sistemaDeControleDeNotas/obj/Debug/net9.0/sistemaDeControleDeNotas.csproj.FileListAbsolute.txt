@@ -1,0 +1,15 @@
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/bin/Debug/net9.0/sistemaDeControleDeNotas
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/bin/Debug/net9.0/sistemaDeControleDeNotas.deps.json
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/bin/Debug/net9.0/sistemaDeControleDeNotas.runtimeconfig.json
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/bin/Debug/net9.0/sistemaDeControleDeNotas.dll
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/bin/Debug/net9.0/sistemaDeControleDeNotas.pdb
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/sistemaDeControleDeNotas.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/sistemaDeControleDeNotas.AssemblyInfoInputs.cache
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/sistemaDeControleDeNotas.AssemblyInfo.cs
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/sistemaDeControleDeNotas.csproj.CoreCompileInputs.cache
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/sistemaDeControleDeNotas.sourcelink.json
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/sistemaDeControleDeNotas.dll
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/refint/sistemaDeControleDeNotas.dll
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/sistemaDeControleDeNotas.pdb
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/sistemaDeControleDeNotas.genruntimeconfig.cache
+/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/Debug/net9.0/ref/sistemaDeControleDeNotas.dll
