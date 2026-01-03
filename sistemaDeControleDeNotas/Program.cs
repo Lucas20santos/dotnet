@@ -107,18 +107,16 @@ while (true)
         {
             if (media >= 7)
             {
-                situacao = "Aprovado";
+                Console.WriteLine("Aprovado");
             }
             else if (media < 5)
             {
-                situacao = "Reprovado";
+                Console.WriteLine("Reprovado");
             }
             else
             {
-                situacao = "Recuperação";
+                Console.WriteLine("Recuperação");
             }
-            
-            Console.WriteLine($"Situação do Aluno: {situacao}.");
         }
     }
     else if (opcao == 0)
