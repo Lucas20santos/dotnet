@@ -1,7 +1,7 @@
 ﻿// TODO: CRIAÇÃO DAS VARIÁVIES
 double media = 0;
 double soma = 0;
-string situacao = "";
+int verificaMedia = 0;
 
 // TODO: CRIAR VARIAVEL PARA ARMAZENAR AS NOTAS    
 List<double> notas = new List<double>();
@@ -75,30 +75,51 @@ while (true)
     }
     else if (opcao == 2)
     {
-        foreach (var item in notas)
+        if (notas.Count == 0)
         {
-            soma += item;
-        }
-
-        media = soma / notas.Count;
-
-        Console.WriteLine($"Media: {media}.");
-    }
-    else if (opcao == 3)
-    {
-        if (media >= 7)
-        {
-            situacao = "Aprovado";
-        }
-        else if (media < 5)
-        {
-            situacao = "Reprovado";
+            Console.WriteLine("Não pode ser cálculado uma média para uma lista de notas vazia.");
         }
         else
         {
-            situacao = "Recuperação";
+            verificaMedia += 1;
+
+            foreach (var item in notas)
+            {
+                soma += item;
+            }
+
+            media = soma / notas.Count;
+
+            Console.WriteLine($"Media: {media}.");
+            soma = 0;
+            media = 0;
         }
-        Console.WriteLine($"Situação do Aluno: {situacao}.");
+    }
+    else if (opcao == 3)
+    {
+        string situacao;
+        
+        if (verificaMedia == 0)
+        {
+            Console.WriteLine("Vocẽ não pode solicitar a situação do aluno sem calcular a média dele.");
+        }
+        else
+        {
+            if (media >= 7)
+            {
+                situacao = "Aprovado";
+            }
+            else if (media < 5)
+            {
+                situacao = "Reprovado";
+            }
+            else
+            {
+                situacao = "Recuperação";
+            }
+            
+            Console.WriteLine($"Situação do Aluno: {situacao}.");
+        }
     }
     else if (opcao == 0)
     {
