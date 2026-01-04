@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lucas/Documentos/Repositorio/dotnet/Projetos/Funcoes/Funcoes.csproj",
+      "projectUniqueName": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Funcoes/Funcoes.csproj",
       "projectName": "Funcoes",
-      "projectPath": "/home/lucas/Documentos/Repositorio/dotnet/Projetos/Funcoes/Funcoes.csproj",
+      "projectPath": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Funcoes/Funcoes.csproj",
       "packagesPath": "/home/lucas/.nuget/packages/",
-      "outputPath": "/home/lucas/Documentos/Repositorio/dotnet/Projetos/Funcoes/obj/",
+      "outputPath": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Funcoes/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lucas/.nuget/NuGet/NuGet.Config"

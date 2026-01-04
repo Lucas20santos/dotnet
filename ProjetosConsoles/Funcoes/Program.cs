@@ -113,6 +113,21 @@ else
 
 static int RetornarSomaDeVariosNumerosInteiro(params int[] numeros)
 {
+    int soma = 0;
+
+    if (numeros.Length != 0)
+    {
+        foreach (var item in numeros)
+        {
+            soma += item;
+        }
+
+        return soma;
+    }
 
     return 0;
 }
+
+Console.WriteLine($"Soma = {RetornarSomaDeVariosNumerosInteiro([1, 2, 3, 4])}");
+Console.WriteLine($"Soma = {RetornarSomaDeVariosNumerosInteiro([])}");
+
