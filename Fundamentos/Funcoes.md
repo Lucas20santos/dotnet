@@ -55,7 +55,7 @@ Saudacao();
 
 Parâmetros permitem **enviar dados** para a função.
 
-### Exemplo:
+### Exemplo
 
 ```csharp
 static void MostrarMensagem(string nome)
