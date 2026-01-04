@@ -45,13 +45,6 @@
 //     return int.TryParse(entrada, out _);
 // }
 
-// // FUNÇÕES COM OUT
-
-// static bool TentarConverter(string texto, out int numero)
-// {
-//     return int.TryParse(texto, out numero);
-// }
-
 // // FUNÇÕES COM PARAMETROS OPCIONAIS
 // static void ExibirMensagem(string mensagem = "Olá")
 // {
@@ -82,6 +75,14 @@
 // {
 //     Console.WriteLine("Número válido.");
 // }
+
+// // FUNÇÕES COM OUT
+
+// static bool TentarConverter(string texto, out int numero)
+// {
+//     return int.TryParse(texto, out numero);
+// }
+
 
 // if(TentarConverter("20", out int n))
 // {
