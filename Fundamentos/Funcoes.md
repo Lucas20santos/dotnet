@@ -28,7 +28,7 @@ modificador tipoRetorno NomeDaFuncao(parametros)
 }
 ```
 
-### Exemplo simples:
+### Exemplo simples
 
 ```csharp
 static void Saudacao()
@@ -76,7 +76,7 @@ MostrarMensagem("Lucas");
 
 Funções podem **retornar valores** usando `return`.
 
-### Exemplo:
+### Exemplo 1
 
 ```csharp
 static int Somar(int a, int b)
@@ -140,6 +140,36 @@ if (EhNumeroValido("10"))
     Console.WriteLine("Número válido");
 }
 ```
+
+### 1. Entendendo o `out`
+
+Normalmente, você usaria assim:
+
+```csharp
+bool sucesso = int.TryParse(entrada, out int numero);
+```
+
+* `sucesso` → indica se deu certo
+* `numero` → valor convertido
+
+---
+
+### 1. O que significa `out _` ?
+
+```csharp
+out _
+```
+
+👉 O `_` é chamado de **discard** (descartar valor).
+
+Ou seja:
+
+* Você **não precisa do número convertido**
+* Só quer saber **se é válido ou não**
+
+💡 Então você diz ao C#:
+
+> “Tente converter, mas não me interessa o valor final.”
 
 ---
 
