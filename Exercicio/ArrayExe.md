@@ -1,10 +1,4 @@
-Perfeito 👍
-Vou te passar **exercícios de Array em C#**, organizados do **básico ao intermediário**, no estilo ideal para treinar lógica e boas práticas.
-👉 **Sem entregar o código pronto**, apenas **enunciado + dicas**, como você prefere.
-
----
-
-# 🧩 EXERCÍCIOS DE ARRAY EM C#
+# 🧩 EXERCÍCIOS DE ARRAY EM C\#
 
 ## 🟢 NÍVEL 1 — BÁSICO
 
