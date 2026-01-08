@@ -1,8 +1,3 @@
-Perfeito, Lucas 👍
-Vamos montar **um material didático e bem organizado sobre Arrays em C#**, no mesmo estilo que você vem usando para estudar e postar depois (se quiser).
-
----
-
 # 📌 ARRAYS EM C# — MATERIAL COMPLETO
 
 ## 🔹 O que é um Array?
@@ -37,7 +32,7 @@ int[] numeros = new int[5];
 
 ## 🔹 Inicializando um Array
 
-### Inicialização direta:
+### Inicialização direta
 
 ```csharp
 int[] numeros = { 10, 20, 30, 40, 50 };
