@@ -1,0 +1,15 @@
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/bin/Debug/net9.0/Arrays
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/bin/Debug/net9.0/Arrays.deps.json
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/bin/Debug/net9.0/Arrays.runtimeconfig.json
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/bin/Debug/net9.0/Arrays.dll
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/bin/Debug/net9.0/Arrays.pdb
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/Arrays.AssemblyInfoInputs.cache
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/Arrays.AssemblyInfo.cs
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/Arrays.csproj.CoreCompileInputs.cache
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/Arrays.sourcelink.json
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/Arrays.dll
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/refint/Arrays.dll
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/Arrays.pdb
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/Arrays.genruntimeconfig.cache
+/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Arrays/obj/Debug/net9.0/ref/Arrays.dll
