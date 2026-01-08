@@ -43,7 +43,7 @@ int[] numeros = new int[5];
 int[] numeros = { 10, 20, 30, 40, 50 };
 ```
 
-### Inicialização com tamanho definido:
+### Inicialização com tamanho definido
 
 ```csharp
 int[] numeros = new int[] { 10, 20, 30 };
