@@ -19,13 +19,13 @@ Um **array** é uma estrutura de dados que permite armazenar **vários valores d
 
 ## 🔹 Declarando um Array
 
-### Forma mais simples:
+### Forma mais simples
 
 ```csharp
 int[] numeros;
 ```
 
-### Declarando e definindo o tamanho:
+### Declarando e definindo o tamanho
 
 ```csharp
 int[] numeros = new int[5];
@@ -73,7 +73,7 @@ numeros[1] = 99;
 
 Agora o array fica:
 
-```
+```yarm
 [10, 99, 30]
 ```
 
