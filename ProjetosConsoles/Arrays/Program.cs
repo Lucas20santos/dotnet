@@ -58,7 +58,6 @@
 
 // EXERCICIO 07 - BUSCAR UM VALOR NO ARRAY
 
-
 int[] numeros = { 11, 12, 13, 14, 15, 16 };
 int numeroProcurado = 17;
 
