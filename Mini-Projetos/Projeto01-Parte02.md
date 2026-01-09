@@ -35,7 +35,7 @@ Crie uma função que:
 
 📌 Exemplo de assinatura (não implementar agora):
 
-```
+```csharp
 CalcularMedia(float[] notas)
 ```
 
