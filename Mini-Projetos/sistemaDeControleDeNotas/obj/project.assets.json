@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/sistemaDeControleDeNotas.csproj",
+      "projectUniqueName": "/home/lucas/Documentos/Repositorio/dotnet/Mini-Projetos/sistemaDeControleDeNotas/sistemaDeControleDeNotas.csproj",
       "projectName": "sistemaDeControleDeNotas",
-      "projectPath": "/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/sistemaDeControleDeNotas.csproj",
+      "projectPath": "/home/lucas/Documentos/Repositorio/dotnet/Mini-Projetos/sistemaDeControleDeNotas/sistemaDeControleDeNotas.csproj",
       "packagesPath": "/home/lucas/.nuget/packages/",
-      "outputPath": "/home/lucas/Documentos/Repositorio/dotnet/sistemaDeControleDeNotas/obj/",
+      "outputPath": "/home/lucas/Documentos/Repositorio/dotnet/Mini-Projetos/sistemaDeControleDeNotas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lucas/.nuget/NuGet/NuGet.Config"

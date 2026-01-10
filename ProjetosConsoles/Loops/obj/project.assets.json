@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lucas/Documentos/Repositorio/dotnet/Loops/Loops.csproj",
+      "projectUniqueName": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Loops/Loops.csproj",
       "projectName": "Loops",
-      "projectPath": "/home/lucas/Documentos/Repositorio/dotnet/Loops/Loops.csproj",
+      "projectPath": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Loops/Loops.csproj",
       "packagesPath": "/home/lucas/.nuget/packages/",
-      "outputPath": "/home/lucas/Documentos/Repositorio/dotnet/Loops/obj/",
+      "outputPath": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Loops/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lucas/.nuget/NuGet/NuGet.Config"

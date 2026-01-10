@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Loops/Loops.csproj": {}
+    "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Variaveis/Variaveis.csproj": {}
   },
   "projects": {
-    "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Loops/Loops.csproj": {
+    "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Variaveis/Variaveis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Loops/Loops.csproj",
-        "projectName": "Loops",
-        "projectPath": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Loops/Loops.csproj",
+        "projectUniqueName": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Variaveis/Variaveis.csproj",
+        "projectName": "Variaveis",
+        "projectPath": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Variaveis/Variaveis.csproj",
         "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Loops/obj/",
+        "outputPath": "/home/lucas/Documentos/Repositorio/dotnet/ProjetosConsoles/Variaveis/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/lucas/.nuget/NuGet/NuGet.Config"
